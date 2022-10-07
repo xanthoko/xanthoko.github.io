@@ -11,8 +11,6 @@
     <link rel="dns-prefetch" href="https://www.google.com/">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
     <link rel="dns-prefetch" href="https://s.w.org/">
-    <script type="text/javascript" async="" src="./static/contact/recaptcha__el.js"
-        integrity="sha384-FelGW57b1pe7zeFPiLYEOlQx2hQiPWc+XJIVp/JvOSMUFKtmWhO+r5EF6QFfT/aY"></script>
     <script type="text/javascript">
         window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "./static/wp-emoji-release.min.js" } };
         /*! This file is auto-generated */
@@ -71,6 +69,32 @@
         }
     </style>
 </head>
+
+<script src="https://carrier.formcarry.com/js/v1.js"></script>
+<script>
+    formcarry({
+        form: "a63hMkFEk",
+        // id or the class name of the form element, only form element allowed
+        // works with css selectors
+        // # <= for id
+        // . <= for class
+        element: "#contact_form_633fe78678e26",
+        // extraData: {
+        //     // add whatever you want
+        //     screenSize: window.screen.width + " " + window.screen.height,
+        //     language: window.navigator.language,
+        // },
+        // Success callback, you can show alert messages
+        // or redirect the user in this function
+        onSuccess: function (response) {
+            alert(response)
+        },
+        // Error callback, a good place to show errors 🗿
+        onError: function (error) {
+            alert(error)
+        }
+    });
+</script>
 
 <body data-rsssl="1"
     class="page-template-default page page-id-187 custom-background wp-embed-responsive masthead-fixed full-width singular">
@@ -201,9 +225,11 @@
                                                                 <h2>How Can I Help You?</h2>
                                                             </div>
 
-                                                            <form id="contact_form_633fe78678e26" class="contact-form"
-                                                                action="https://lmpixels.com/wp/leven-wp/full-width/contact/#"
-                                                                method="post" novalidate="true">
+                                                            <!-- <form id="contact_form_633fe78678e26"
+                                                                action="https://formcarry.com/s/a63hMkFEk" method="post"
+                                                                novalidate="true" accept-charset="UTF-8"> -->
+                                                            <form id="contact_form_633fe78678e26"
+                                                                accept-charset="UTF-8">
 
                                                                 <div class="messages"></div>
 
@@ -245,6 +271,7 @@
                                                                                 <div class="help-block with-errors">
                                                                                 </div>
                                                                             </div>
+                                                                            <input type="hidden" name="_gotcha">
                                                                         </div>
                                                                         <div class="right-column">
                                                                             <div
@@ -302,7 +329,6 @@
 
     </div>
     <script type="text/javascript" src="./static/2570769f-1657007355.min.js" id="js-2-js"></script>
-    <script type="text/javascript" src="./static/contact/api.js" id="js-recaptcha-js"></script>
 
     <div id="page-ajax-loaded" class="page-portfolio-loaded animated fadeInLeft" style="display: none">
         <div class="preloader-portfolio">
@@ -310,22 +336,6 @@
                 <div class="preloader-spinner"></div>
             </div>
         </div>
-    </div>
-    <div
-        style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
-        <div
-            style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
-        </div>
-        <div class="g-recaptcha-bubble-arrow"
-            style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
-        </div>
-        <div class="g-recaptcha-bubble-arrow"
-            style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
-        </div>
-        <div style="z-index: 2000000000; position: relative;"><iframe title="Η πρόκληση reCAPTCHA λήγει σε δύο λεπτά"
-                src="./static/contact/bframe.html" name="c-zg7pqrjtt3uv" frameborder="0" scrolling="no"
-                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
-                style="width: 100%; height: 100%;"></iframe></div>
     </div>
 </body>
 
