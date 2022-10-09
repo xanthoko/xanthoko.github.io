@@ -36911,7 +36911,7 @@ input[type="submit"],
 @media only screen and (min-width:991px) {
     .page-container.full-width-container {
         min-height: 100vh;
-        padding-bottom: 80px
+        padding-bottom: 120px
     }
 
     .site-footer {
@@ -37029,94 +37029,4 @@ body {
 .fw-main-row.background-video .fw-container,
 .fw-main-row.background-video .fw-container-fluid {
     z-index: 1
-}
-
-.fw-divider-space {
-    clear: both;
-    width: 100%
-}
-
-.fw-divider-space.space-sm {
-    height: 30px
-}
-
-.fw-divider-space.space-md {
-    height: 60px
-}
-
-.fw-divider-space.space-lg {
-    height: 100px
-}
-
-.fw-divider-line {
-    clear: both;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%
-}
-
-.certificate-item {
-    position: relative;
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    border: 2px solid #e5e5e5;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    -webkit-transition: all 2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out
-}
-
-.certificate-item:hover {
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    -o-transform: translateY(-5px);
-    transform: translateY(-5px);
-    -webkit-box-shadow: 0 12px 17px rgba(0, 0, 0, .12);
-    -moz-box-shadow: 0 12px 17px rgba(0, 0, 0, .12);
-    -o-box-shadow: 0 12px 17px rgba(0, 0, 0, .12);
-    box-shadow: 0 12px 17px rgba(0, 0, 0, .12)
-}
-
-.certi-logo {
-    display: table-cell;
-    width: 120px;
-    height: 100%;
-    background-color: #f5f5f5;
-    padding: 25px;
-    vertical-align: middle;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px
-}
-
-.certi-logo img {
-    display: block;
-    max-width: 100%
-}
-
-.certi-content {
-    display: table-cell;
-    width: 100%;
-    padding: 20px 25px;
-    vertical-align: middle
-}
-
-.certi-title h4 {
-    font-size: 16px;
-    margin: 0 0 5px
-}
-
-.certi-id {
-    font-size: .9em;
-    color: #777
-}
-
-.certi-date {
-    font-size: .7em;
-    color: #777;
-    opacity: .7
 }
