@@ -15383,7 +15383,7 @@ h3 {
 
 h4 {
     font-size: 1em;
-    margin: 1.33em 0
+    margin: 1em 0 0.4em;
 }
 
 h5 {
@@ -15399,6 +15399,8 @@ h6 {
 abbr[title] {
     border-bottom: 1px dotted
 }
+
+
 
 b,
 strong {
@@ -34019,6 +34021,10 @@ ul.social-links li:last-child a {
     border-radius: 15px;
     border: 2px solid #eee;
     margin-left: 20px
+}
+
+.custom-description {
+    font-size: 1rem;
 }
 
 .portfolio-page-wrapper .block-title h3 {
