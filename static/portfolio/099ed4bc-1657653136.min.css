@@ -33479,7 +33479,7 @@ ul.social-links li:last-child a {
     left: 20px;
     max-width: calc(100% - 67px);
     border-radius: 5px;
-    position: absolute
+    position: absolute;
 }
 
 .portfolio-grid.five-columns figure .name {

@@ -1,7 +1,10 @@
-- [ ] Add projects to portfolio
-- [x] Add description for tradestats
 - [x] Descrease portfolio image sizes
+- [x] Add description for tradestats
+- [x] Link konxantho.tech
+- [x] Tradestats clickable
+- [ ] Add projects to portfolio
 - [ ] Hide somehow the scroll bar
 - [ ] Responsive portfolio for mobile
 - [ ] Logo
-- [ ] Link konxantho.tech
+- [ ] Hover motion to project thumbnails
+- [ ] Footer padding in some resolutions
