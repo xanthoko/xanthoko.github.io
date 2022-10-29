@@ -6,4 +6,4 @@
 - [ ] Responsive portfolio for mobile
 - [ ] Logo
 - [x] Hover motion to project thumbnails
-- [ ] Make sidebar on mobile less wid
+- [x] Make sidebar on mobile less wid
