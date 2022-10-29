@@ -37074,7 +37074,7 @@ body {
 }
 
 .home-photo .hp-inner {
-    background-image: url('./assets/me.jpeg');
+    background-image: url('./me.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37151,5 +37151,5 @@ body {
 }
 
 #home_content_111e4c729e81560ba288e46d8e0d933f .home-photo .hp-inner {
-    background-image: url('./assets/me.jpeg')
+    background-image: url('./me.jpeg')
 }

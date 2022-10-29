@@ -3,8 +3,7 @@
 - [x] Link konxantho.tech
 - [x] Tradestats clickable
 - [x] Add projects to portfolio
-- [ ] Hide somehow the scroll bar
 - [ ] Responsive portfolio for mobile
 - [ ] Logo
 - [x] Hover motion to project thumbnails
-- [ ] Footer padding in some resolutions
+- [ ] Make sidebar on mobile less wid
