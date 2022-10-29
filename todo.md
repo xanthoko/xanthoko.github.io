@@ -3,7 +3,7 @@
 - [x] Link konxantho.tech
 - [x] Tradestats clickable
 - [x] Add projects to portfolio
-- [ ] Responsive portfolio for mobile
-- [ ] Logo
 - [x] Hover motion to project thumbnails
 - [x] Make sidebar on mobile less wid
+- [ ] Responsive portfolio for mobile
+- [ ] Logo
