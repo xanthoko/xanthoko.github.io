@@ -7,5 +7,3 @@
 - [x] Make sidebar on mobile less wid
 - [x] Responsive portfolio for mobile
 - [x] Logo
-- [ ] Fancy underlined words in index
-- [ ] One page with overview
